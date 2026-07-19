@@ -1,0 +1,17 @@
+export const appRoutes = {
+  home: "/",
+  login: "/login",
+  register: "/register",
+  forgotPassword: "/forgot-password",
+  resetPassword: "/reset-password",
+  verifyEmail: "/verify-email",
+  products: "/products",
+  categories: "/categories",
+  cart: "/cart",
+  wishlist: "/wishlist",
+  profile: "/profile",
+  checkout: "/checkout",
+  orders: "/orders",
+  adminDashboard: "/admin/dashboard",
+  newProduct: "/admin/products/new",
+};

@@ -1,0 +1,115 @@
+export const shopConfig = {
+  shop: {
+    name: "George's Youth Icon Shop",
+    tagline: "George's Youth Icon Shop - Premium Footwear Collection",
+    description: "Your destination for premium footwear, exclusive styles, and latest trends.",
+    owner: "George",
+  },
+  contact: {
+    phone: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+    email: "info@gyis.com",
+    address: "123 Fashion Street, Youth City, YC 12345",
+  },
+  businessHours: {
+    monday: { open: "10:00 AM", close: "8:00 PM" },
+    tuesday: { open: "10:00 AM", close: "8:00 PM" },
+    wednesday: { open: "10:00 AM", close: "8:00 PM" },
+    thursday: { open: "10:00 AM", close: "9:00 PM" },
+    friday: { open: "10:00 AM", close: "9:00 PM" },
+    saturday: { open: "9:00 AM", close: "9:00 PM" },
+    sunday: { open: "11:00 AM", close: "6:00 PM" },
+  },
+  social: {
+    facebook: "https://facebook.com/gyis",
+    instagram: "https://instagram.com/gyis",
+    twitter: "https://twitter.com/gyis",
+    linkedin: "https://linkedin.com/company/gyis",
+    youtube: "https://youtube.com/gyis",
+    tiktok: "https://tiktok.com/@gyis",
+  },
+  features: [
+    {
+      title: "Premium Quality",
+      description: "Handpicked footwear from top international brands",
+      icon: "🏆",
+    },
+    {
+      title: "Fast Shipping",
+      description: "Free shipping on orders over $50, delivery within 3-5 days",
+      icon: "🚚",
+    },
+    {
+      title: "Easy Returns",
+      description: "30-day hassle-free returns and exchanges",
+      icon: "🔄",
+    },
+    {
+      title: "24/7 Support",
+      description: "Expert customer support available round the clock",
+      icon: "💬",
+    },
+  ],
+  categories: [
+    { name: "Sneakers", image: "👟", description: "Latest sneaker drops and classics" },
+    { name: "Casual", image: "👞", description: "Everyday comfort and style" },
+    { name: "Sports", image: "⛹️", description: "Performance footwear for athletes" },
+    { name: "Formal", image: "🎩", description: "Elegant shoes for special occasions" },
+  ],
+  newArrivals: [
+    { name: "Air Max Pulse", image: "👟", price: "$149.99", badge: "New" },
+    { name: "Cloud Runner Pro", image: "👟", price: "$129.99", badge: "New" },
+    { name: "Urban Stride", image: "👞", price: "$89.99", badge: "New" },
+    { name: "Elite Court", image: "👟", price: "$169.99", badge: "New" },
+  ],
+  bestSellers: [
+    { name: "Classic Leather", image: "👞", price: "$119.99", badge: "Best Seller" },
+    { name: "Speed Runner", image: "⛹️", price: "$99.99", badge: "Best Seller" },
+    { name: "Oxford Elite", image: "🎩", price: "$159.99", badge: "Best Seller" },
+    { name: "Trail Blazer", image: "👟", price: "$134.99", badge: "Best Seller" },
+  ],
+  featuredBrands: [
+    { name: "Nike", logo: "🏷️" },
+    { name: "Adidas", logo: "🏷️" },
+    { name: "Puma", logo: "🏷️" },
+    { name: "Reebok", logo: "🏷️" },
+    { name: "New Balance", logo: "🏷️" },
+    { name: "Converse", logo: "🏷️" },
+  ],
+  reviews: [
+    {
+      name: "Sarah Johnson",
+      rating: 5,
+      text: "Absolutely love my new sneakers! The quality is outstanding and delivery was super fast.",
+      avatar: "SJ",
+    },
+    {
+      name: "Michael Chen",
+      rating: 5,
+      text: "Best footwear store in town. Great selection and amazing customer service.",
+      avatar: "MC",
+    },
+    {
+      name: "Emily Rodriguez",
+      rating: 4,
+      text: "Found exactly what I was looking for. The prices are reasonable and the staff is helpful.",
+      avatar: "ER",
+    },
+    {
+      name: "David Kim",
+      rating: 5,
+      text: "My go-to place for shoes. The quality never disappoints and they have the latest styles.",
+      avatar: "DK",
+    },
+  ],
+  links: {
+    about: "#about",
+    contact: "#contact",
+    privacy: "#privacy",
+    terms: "#terms",
+    faq: "#faq",
+  },
+  footer: {
+    aboutUs: "George's Youth Icon Shop is your premier destination for premium footwear. We curate the finest collection of shoes from top brands worldwide, ensuring quality, style, and comfort with every step.",
+    copyright: "George's Youth Icon Shop. All rights reserved.",
+  },
+};
