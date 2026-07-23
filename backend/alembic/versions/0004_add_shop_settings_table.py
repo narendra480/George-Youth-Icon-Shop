@@ -17,7 +17,7 @@ def upgrade() -> None:
     op.create_table(
         "shop_settings",
         sa.Column("id", sa.Integer(), nullable=False),
-        sa.Column("shop_name", sa.String(length=255), nullable=False, server_default=sa.text("'George\\'s Youth Icon Shop'")),
+        sa.Column("shop_name", sa.String(length=255), nullable=False, server_default="George's Youth Icon Shop"),
         sa.Column("tagline", sa.String(length=255), nullable=True, server_default=sa.text("'Premium Footwear Collection'")),
         sa.Column("description", sa.Text(), nullable=True),
         sa.Column("owner_name", sa.String(length=255), nullable=True),
